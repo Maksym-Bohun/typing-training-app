@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./App.css";
-import Home from "./components/pages/Home";
-import { Root } from "./components/pages/RootLayout";
-import { SpeedTest } from "./components/speed-test/SpeedTest";
+import Home from "./components/pages/Home/Home";
+import { Root } from "./components/Layout/RootLayout";
+import { SpeedTest } from "./components/pages/SpeedTest";
 import { Training } from "./components/pages/Training";
-import { Challenge } from "./components/pages/Challenge";
+import { Challenge } from "./components/pages/Challenge/Challenge";
 
 const router = createBrowserRouter([
   {

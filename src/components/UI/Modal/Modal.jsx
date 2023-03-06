@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Modal.module.css";
 
-const Modal = (props) => {
+export function Modal(props) {
   return (
     <React.Fragment>
       <div className={classes.backdrop} onClick={props.onClose} />
@@ -14,6 +14,4 @@ const Modal = (props) => {
       </div>
     </React.Fragment>
   );
-};
-
-export default Modal;
+}
