@@ -7,24 +7,26 @@ import { SpeedTest } from "./components/pages/SpeedTest";
 import { Training } from "./components/pages/Training";
 import { Challenge } from "./components/pages/Challenge/Challenge";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    children: [
-      { index: true, element: <Home /> },
-      {
-        path: "actions",
-        element: <Root />,
-        children: [
-          { path: "test", element: <SpeedTest /> },
-          { path: "training", element: <Training /> },
-          { path: "challenge", element: <Challenge /> },
-        ],
-      },
-    ],
-  },
-  { basename: "/" },
-]);
+const router = createBrowserRouter({
+  routes: [
+    {
+      path: "/",
+      children: [
+        { index: true, element: <Home /> },
+        {
+          path: "actions",
+          element: <Root />,
+          children: [
+            { path: "test", element: <SpeedTest /> },
+            { path: "training", element: <Training /> },
+            { path: "challenge", element: <Challenge /> },
+          ],
+        },
+      ],
+    },
+  ],
+  basename: "/my-app",
+});
 
 function App() {
   return <RouterProvider router={router} />;
