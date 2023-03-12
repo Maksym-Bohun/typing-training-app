@@ -23,6 +23,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { basename: "/" },
 ]);
 
 function App() {
