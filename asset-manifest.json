@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/typing-training-app/static/css/main.13c423f0.css",
-    "main.js": "/typing-training-app/static/js/main.366a5b9f.js",
+    "main.css": "/typing-training-app/static/css/main.4043a6af.css",
+    "main.js": "/typing-training-app/static/js/main.13da045a.js",
     "static/media/typing-training.gif": "/typing-training-app/static/media/typing-training.6c9a78309a54918702a4.gif",
     "static/media/jim-carrey-typing.gif": "/typing-training-app/static/media/jim-carrey-typing.bb0f7d7d38eabb655e27.gif",
     "static/media/cat-typing.gif": "/typing-training-app/static/media/cat-typing.288719684ef58388cfe8.gif",
@@ -13,11 +13,11 @@
     "static/media/caret-up.svg": "/typing-training-app/static/media/caret-up.3aa6a72b027cdcf2a871e37f2e545a55.svg",
     "static/media/caret-right.svg": "/typing-training-app/static/media/caret-right.04cd1bafcc8bcdaf85c193a87b343302.svg",
     "static/media/caret-down.svg": "/typing-training-app/static/media/caret-down.9466bf1166a83d972d7eadbc2c3b34eb.svg",
-    "main.13c423f0.css.map": "/typing-training-app/static/css/main.13c423f0.css.map",
-    "main.366a5b9f.js.map": "/typing-training-app/static/js/main.366a5b9f.js.map"
+    "main.4043a6af.css.map": "/typing-training-app/static/css/main.4043a6af.css.map",
+    "main.13da045a.js.map": "/typing-training-app/static/js/main.13da045a.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c423f0.css",
-    "static/js/main.366a5b9f.js"
+    "static/css/main.4043a6af.css",
+    "static/js/main.13da045a.js"
   ]
 }
